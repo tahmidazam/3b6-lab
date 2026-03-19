@@ -206,12 +206,20 @@ The laboratory temperature was not recorded or controlled during the experiment,
 \section{Conclusion}
 The CD laser's threshold current of \SI{53.1}{\milli\ampere} fell within the expected range. The series resistance and ideal-diode voltage were found to be $R_s = \SI{3.5 +- 0.6}{\ohm}$ and $V_0 = \SI{1.418 +- 0.013}{\volt}$, giving an estimated wavelength of $\lambda = \SI{874 +- 8}{\nano\metre}$---\SI{12}{\percent} above the expected \SI{780}{\nano\metre}, attributed to the resistor tolerance, uncontrolled temperature, non-linearity, and $V_0$ not reflecting the complete photon energy. The telecommunications laser demonstrated the expected transition from broad spontaneous emission to narrow stimulated emission across threshold, with a \SI{14.8}{\deci\bel} increase in peak power. The effective refractive index was calculated as $n = 3.54 \pm 0.03$, consistent with literature values for InGaAsP/InP waveguides. Several improvements could yield more accurate results in future work. First, collecting more data points---particularly in the vicinity of threshold---would better constrain both the threshold current and the linear fit used to extract $R_s$ and $V_0$; time constraints during the session limited the number of measurements taken. Second, more careful alignment of the photodiode and adjustment of the slit would make use of a greater portion of the detector's dynamic range, reducing the relative impact of oscilloscope noise on the optical output readings. Third, recording the ambient temperature and stabilising the laser with a thermoelectric cooler would remove a significant uncontrolled variable that affects both the threshold current and the emission wavelength.
 
+\section{Code availability}
+
+\begingroup
+You can find the source code for typesetting this report and generating figures at:
+
+\quote{\href{https://github.com/tahmidazam/3b6-lab}{https://github.com/tahmidazam/3b6-lab}}
+\endgroup
+
 \begingroup
 \renewcommand{\bibfont}{\footnotesize}
 \printbibheading
 \begin{multicols}{2}
     \printbibliography[heading=none]
 \end{multicols}
-\endgroup
+
 
 \end{document}
