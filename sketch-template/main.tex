@@ -1,0 +1,109 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{pgfplots}
+\usepackage{subcaption}
+\usepackage{siunitx}
+\usepackage{float}
+\pgfplotsset{compat=1.18}
+\usepackage[OT1]{fontenc}
+\usepackage{cmbright}
+\usepackage{authblk}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\sisetup{per-mode = power}
+\sisetup{separate-uncertainty=true}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{biblatex}
+\addbibresource{3b6_lab.bib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{multicol}
+
+\begin{document}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \begin{axis}[
+                    width=\textwidth,
+                    height=5cm,
+                    xlabel={Wavelength (nm)},
+                    ylabel={Power (dBm)},
+                    title={\SI{14}{\milli\ampere}, \SI{100}{\nano\metre} span},
+                    xmin=1505, xmax=1605,
+                    ymin=-70, ymax=-10,
+                    xtick=\empty,
+                    ytick=\empty,
+                    xlabel style={at={(0.5,-0.15)}},
+                    ylabel style={at={(-0.15,0.5)}},
+                ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \begin{axis}[
+                    width=\textwidth,
+                    height=5cm,
+                    xlabel={Wavelength (nm)},
+                    ylabel={Power (dBm)},
+                    title={\SI{17}{\milli\ampere}, \SI{100}{\nano\metre} span},
+                    xmin=1505, xmax=1605,
+                    ymin=-70, ymax=-10,
+                    xtick=\empty,
+                    ytick=\empty,
+                    xlabel style={at={(0.5,-0.15)}},
+                    ylabel style={at={(-0.15,0.5)}},
+                ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{subfigure}
+
+    \vspace{1.5cm}
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \begin{axis}[
+                    width=\textwidth,
+                    height=5cm,
+                    xlabel={Wavelength (nm)},
+                    ylabel={Power (dBm)},
+                    title={\SI{14}{\milli\ampere}, \SI{5}{\nano\metre} span},
+                    xmin=1553, xmax=1558,
+                    ymin=-70, ymax=-10,
+                    xtick=\empty,
+                    ytick=\empty,
+                    xlabel style={at={(0.5,-0.15)}},
+                    ylabel style={at={(-0.15,0.5)}},
+                ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \begin{tikzpicture}
+            \begin{axis}[
+                    width=\textwidth,
+                    height=5cm,
+                    xlabel={Wavelength (nm)},
+                    ylabel={Power (dBm)},
+                    title={\SI{17}{\milli\ampere}, \SI{5}{\nano\metre} span},
+                    xmin=1553, xmax=1558,
+                    ymin=-70, ymax=-10,
+                    xtick=\empty,
+                    ytick=\empty,
+                    xlabel style={at={(0.5,-0.15)}},
+                    ylabel style={at={(-0.15,0.5)}},
+                ]
+            \end{axis}
+        \end{tikzpicture}
+    \end{subfigure}
+\end{figure}
+\end{document}

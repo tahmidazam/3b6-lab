@@ -136,14 +136,14 @@
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We have measured the refractive index of InP and of liquid‐phase‐epitaxy–grown InGaAsP layers on InP in the transparent wavelength region using a Brewster‐angle method. The dependence of the refractive index on material composition and light wavelength has been investigated for near‐lattice‐matched samples and compared with theoretical models. We show that both an interband transition model and a single effective oscillator model can be used to calculate the refractive index if the parameters used in the calculations are chosen properly. We have also studied the variation with lattice mismatch by varying the growth temperature. We found that a lattice mismatch variation of 10--3 corresponds to a change in the refractive index of approximately 0.02 for λg=1.20 μm layer band gap at λ=1.30 μm wavelength. Finally, we have measured the refractive index of doped InP substrates and found refractive index reductions, due to doping, of up to 0.05.}
+      \field{abstract}{We have measured the refractive index of InP and of liquid‐phase‐epitaxy–grown InGaAsP layers on InP in the transparent wavelength region using a Brewster‐angle method. The dependence of the refractive index on material composition and light wavelength has been investigated for near‐lattice‐matched samples and compared with theoretical models. We show that both an interband transition model and a single effective oscillator model can be used to calculate the refractive index if the parameters used in the calculations are chosen properly. We have also studied the variation with lattice mismatch by varying the growth temperature. We found that a lattice mismatch variation of 10-3 corresponds to a change in the refractive index of approximately 0.02 for λg=1.20 μm layer band gap at λ=1.30 μm wavelength. Finally, we have measured the refractive index of doped InP substrates and found refractive index reductions, due to doping, of up to 0.05.}
       \field{day}{1}
       \field{issn}{0021-8979}
       \field{journaltitle}{Journal of Applied Physics}
       \field{month}{5}
       \field{number}{9}
       \field{shortjournal}{J. Appl. Phys.}
-      \field{title}{Refractive Index of {{In1}}--{{xGaxAsyP1}}--y Layers and {{InP}} in the Transparent Wavelength Region}
+      \field{title}{Refractive Index of {{In1}}-{{xGaxAsyP1}}-y Layers and {{InP}} in the Transparent Wavelength Region}
       \field{urlday}{19}
       \field{urlmonth}{3}
       \field{urlyear}{2026}
@@ -157,7 +157,7 @@
       \verb 10.1063/1.333377
       \endverb
       \verb{file}
-      \verb /Users/tahmidazam/Zotero/storage/52UDPUZ7/Broberg and Lindgren - 1984 - Refractive index of In1--xGaxAsyP1--y layers and InP in the transparent wavelength region.pdf;/Users/tahmidazam/Zotero/storage/9LET59Y4/1.html
+      \verb /Users/tahmidazam/Zotero/storage/52UDPUZ7/Broberg and Lindgren - 1984 - Refractive index of In1-xGaxAsyP1-y layers and InP in the transparent wavelength region.pdf;/Users/tahmidazam/Zotero/storage/9LET59Y4/1.html
       \endverb
       \verb{urlraw}
       \verb https://doi.org/10.1063/1.333377
@@ -165,6 +165,37 @@
       \verb{url}
       \verb https://doi.org/10.1063/1.333377
       \endverb
+    \endentry
+    \entry{LinregressSciPyV1170}{online}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{title}{Linregress — {{SciPy}} v1.17.0 {{Manual}}}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/tahmidazam/Zotero/storage/CUQQ2PEC/scipy.stats.linregress.html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.linregress.html
+      \endverb
+      \verb{url}
+      \verb https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.linregress.html
+      \endverb
+    \endentry
+    \entry{iec60062}{online}{}{}
+      \list{organization}{1}{%
+        {International Electrotechnical Commission}%
+      }
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{edition}{6.0}
+      \field{number}{IEC 60062}
+      \field{title}{Marking codes for resistors and capacitors}
+      \field{year}{2016}
     \endentry
   \enddatalist
 \endrefsection
