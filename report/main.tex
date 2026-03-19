@@ -1,0 +1,105 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[OT1]{fontenc}
+\usepackage{cmbright}
+\usepackage{authblk}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\sisetup{per-mode = power}
+\sisetup{separate-uncertainty=true}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{biblatex}
+\addbibresource{3b6_lab.bib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{multicol}
+
+\title{Module Report\\[0.5em]
+\Large 3B6 \textit{Photonic Technology}}
+\author[1]{Tahmid Azam}
+\affil[1]{Emmanuel College, University of Cambridge}
+\date{March 2026}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+\section{Experimental setup and apparatus}
+
+\section{CD laser characterisation}
+\subsection{Light-current characteristics}
+\subsection{Voltage-current characteristics}
+\subsection{Determination of threshold current}
+\subsection{Series resistance estimation}
+\subsection{Calculation of lasing wavelength}
+
+\section{Telecommunications laser}
+
+\subsection{Measurements}
+
+\begin{table}[H]
+    \small
+    \centering
+    \begin{tabular}{lcc}
+        \toprule
+                                                   & \multicolumn{2}{c}{Operating condition}                          \\
+        \cmidrule(lr){2-3}
+                                                   & \SI{17}{\milli\ampere}                  & \SI{14}{\milli\ampere} \\
+        \midrule
+        $\lambda_0$ (nm)                           & 1555.5                                  & 1555.7                 \\
+        3\,dB width (nm)                           & 3.96                                    & 17                     \\
+        \midrule
+        $\Delta\lambda_1$ (nm)                     & 1.13                                    & 1.17                   \\
+        $\Delta\lambda_2$ (nm)                     & 1.15                                    & 1.22                   \\
+        $\Delta\lambda_3$ (nm)                     & 1.14                                    & 1.19                   \\
+        $\Delta\lambda_4$ (nm)                     & 1.12                                    & 1.24                   \\
+        $\Delta\lambda_5$ (nm)                     & 1.16                                    & 1.18                   \\
+        \midrule
+        $\overline{\Delta\lambda} \pm \sigma$ (nm) & $1.14 \pm 0.02$                         & $1.20 \pm 0.03$        \\
+        \bottomrule
+    \end{tabular}
+    \caption{Spectral measurements for both drive currents: centre wavelength $\lambda_0$, 3\,dB spectral width, individual mode spacing measurements $\Delta\lambda_i$, and mean mode spacing $\bar{\Delta\lambda} \pm \sigma$.}
+    \label{tab:spectral_measurements}
+\end{table}
+
+\autoref{tab:spectral_measurements} summarises the spectral measurements taken at drive currents above (\SI{17}{\milli\ampere}) and below (\SI{14}{\milli\ampere}) the threshold current of \SI{15.5}{\milli\ampere}. Below threshold, the output spectrum is broad with a 3\,dB width of \SI{17}{\nano\metre} centred at $\lambda_0 = \SI{1555.7}{\nano\metre}$, characteristic of spontaneous emission where electrons and holes recombine across a range of energies determined by the material gain bandwidth. Above threshold, the spectrum narrows to a 3\,dB width of \SI{3.96}{\nano\metre} centred at $\lambda_0 = \SI{1555.5}{\nano\metre}$, as stimulated emission dominates: photons in the cavity modes closest to the gain peak trigger further emission of identical photons, amplifying those modes preferentially while others are suppressed. Both spectra are centred near \SI{1.556}{\micro\metre}, within the \SI{1.55}{\micro\metre} telecommunications band as expected for this laser. Longitudinal cavity modes are visible in both spectra, with mean spacings of $\overline{\Delta\lambda} = \SI{1.14 +- 0.02}{\nano\metre}$ above threshold and $\overline{\Delta\lambda} = \SI{1.20 +- 0.03}{\nano\metre}$ below. Since the mode spacing is determined by the cavity geometry through $\Delta\lambda = \lambda_0^2 / 2nL$, it should be independent of drive current; the two values are broadly consistent, and the above-threshold measurement is used for subsequent calculations.
+
+\subsection{Calculation of effective refractive index}
+
+Using the above-threshold values with cavity length $L=\SI{300}{\micro \metre}$ we can calculate the refractive index $n$:
+\begin{equation*}
+    n = \frac{\lambda_0^2}{2L\Delta\lambda} = \frac{(1555.5 \times 10^{-9})^2}{2 \times 300 \times 10^{-6} \times 1.14 \times 10^{-9}} = 3.54 \text{ to 3 s.f.}
+\end{equation*}
+The uncertainty in the measurements here involve:
+\begin{itemize}[noitemsep]
+    \item $\delta\lambda_0 = \SI{0.1}{\nano\metre}$ from the last digit;
+    \item $\delta L \approx \SI{1}{\micro\metre}$ from the last digit; and
+    \item $\delta\Delta\lambda = \sigma / \sqrt{N} = 0.02 / \sqrt{5} = \SI{0.009}{\nano\metre}$, the standard error of the mean from our five measurements.
+\end{itemize}
+We use the standard error of the mean rather than the standard deviation since our result depends on the mean mode spacing. The expression for the relative error can then be evaluated:
+\begin{equation*}
+    \frac{\delta n}{n} = \sqrt{\left(\frac{2\,\delta\lambda_0}{\lambda_0}\right)^2 + \left(\frac{\delta L}{L}\right)^2 + \left(\frac{\delta\Delta\lambda}{\Delta\lambda}\right)^2} = \sqrt{\left(\frac{2 \times 0.1}{1555.5}\right)^2 + \left(\frac{1}{300}\right)^2 + \left(\frac{0.009}{1.14}\right)^2} = 0.009
+\end{equation*}
+Therefore $\delta n = 0.009 \times 3.54 = 0.03 \text{ to 1 s.f.}$, giving:
+\begin{equation*}
+    \boxed{n = 3.54 \pm 0.03}
+\end{equation*}
+This is the \textit{effective} refractive index of the waveguide mode, rather than the bulk refractive index of the active material. The optical mode extends partially into the surrounding InP cladding, which has a lower refractive index, so the effective index lies between those of the core and cladding layers. Our value of $n = 3.54$ is consistent with typical values for InGaAsP/InP waveguides at \SI{1.55}{\micro\metre}, which range from approximately 3.2 to 3.6 depending on the active layer thickness, the composition ratios $x$ and $y$ in Ga$_{1-x}$In$_x$As$_{1-y}$P$_y$ \cite{brobergRefractiveIndexIn1xGaxAsyP1y1984, bernardMidinfraredOpticalCharacterization2018}, and operating conditions such as carrier density and temperature. As noted in the handout, these composition ratios must be carefully controlled to maintain lattice matching with the InP substrate.
+
+\section{Discussion}
+\subsection{Temperature effects}
+
+\section{Conclusions}
+
+\newpage
+\begingroup
+\renewcommand{\bibfont}{\footnotesize}
+\printbibheading
+\begin{multicols}{2}
+    \printbibliography[heading=none]
+\end{multicols}
+\endgroup
+
+\end{document}

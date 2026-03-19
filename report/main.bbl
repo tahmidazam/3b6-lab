@@ -1,0 +1,172 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{bernardMidinfraredOpticalCharacterization2018}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=21a297158bb7f87aef58ec6c61e135e0}{%
+           family={Bernard},
+           familyi={B\bibinitperiod},
+           given={Alice},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ba1df64bf71ada598b5ea5921dd96e30}{%
+           family={Ravaro},
+           familyi={R\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=49fb63284844b0ff3fdf36f95ee4ae13}{%
+           family={Roland},
+           familyi={R\bibinitperiod},
+           given={Iännis},
+           giveni={I\bibinitperiod}}}%
+        {{hash=29c68643df45a2324ef398a060d1fb3f}{%
+           family={Gérard},
+           familyi={G\bibinitperiod},
+           given={Jean-Michel},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=e8642e1be2e642df1f583c9ee1c0bec2}{%
+           family={Krakowski},
+           familyi={K\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ae6623b4c18be2ee86ee05d9934a6983}{%
+           family={Parillaud},
+           familyi={P\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{hash=acef653fe99c33bb8ccd4d0c8753d131}{%
+           family={Gérard},
+           familyi={G\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8a54f4862fe9d1894ee41a245c833806}{%
+           family={Favero},
+           familyi={F\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=dd847f53b91434921f1f94f5cd1c39d0}{%
+           family={Leo},
+           familyi={L\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{25b0ea317d54a14bfec916327e1033ef}
+      \strng{fullhash}{a687a0f7854e45d195ad6b3a2893eda1}
+      \strng{fullhashraw}{a687a0f7854e45d195ad6b3a2893eda1}
+      \strng{bibnamehash}{25b0ea317d54a14bfec916327e1033ef}
+      \strng{authorbibnamehash}{25b0ea317d54a14bfec916327e1033ef}
+      \strng{authornamehash}{25b0ea317d54a14bfec916327e1033ef}
+      \strng{authorfullhash}{a687a0f7854e45d195ad6b3a2893eda1}
+      \strng{authorfullhashraw}{a687a0f7854e45d195ad6b3a2893eda1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a measurement of the refractive index of In1\&\#x2212;xGaxAsyP1\&\#x2212;y lattice-matched to InP outside of the range available in the literature. We have accurately determined the refractive index of In1\&\#x2212;xGaxAsyP1\&\#x2212;y lattice-matched to InP as a function of wavelength (\&\#x03BB;=1.55, 2.12, and 3\&\#x00A0;\&\#x03BC;m) and arsenic molar fraction (y=0.55, 0.7, and 0.72). Data is interpolated with a theoretical model and compared to the literature whenever possible. Agreement with currently available data is good. Uncertainties are estimated, the largest one being related to the sample composition. We also measure propagation losses dominated by scattering (0.15\&\#x2013;1.2\&\#x2009;\&\#x2009;cm\&\#x2212;1) in ridge waveguides, for the same range of compositions at wavelengths of 1.55\&\#x00A0;\&\#x03BC;m and 2.12\&\#x00A0;\&\#x03BC;m.}
+      \field{day}{1}
+      \field{issn}{1520-8540}
+      \field{journaltitle}{JOSA B}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shortjournal}{J. Opt. Soc. Am. B, JOSAB}
+      \field{title}{Mid-Infrared Optical Characterization of {{InGaAsP}}}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{35}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{C25\bibrangedash C28}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1364/JOSAB.35.000C25
+      \endverb
+      \verb{urlraw}
+      \verb https://opg.optica.org/josab/abstract.cfm?uri=josab-35-12-C25
+      \endverb
+      \verb{url}
+      \verb https://opg.optica.org/josab/abstract.cfm?uri=josab-35-12-C25
+      \endverb
+      \keyw{Diode lasers,Electron beam lithography,Laser beam combining,Physical vapor deposition,Refractive index,Tunable diode lasers}
+    \endentry
+    \entry{brobergRefractiveIndexIn1xGaxAsyP1y1984}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f175c36dc3d16270af0364f05b437037}{%
+           family={Broberg},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=042fa018c43b441433103e4cbded591d}{%
+           family={Lindgren},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{61728677be996061bb492b99abe8f35b}
+      \strng{fullhash}{61728677be996061bb492b99abe8f35b}
+      \strng{fullhashraw}{61728677be996061bb492b99abe8f35b}
+      \strng{bibnamehash}{61728677be996061bb492b99abe8f35b}
+      \strng{authorbibnamehash}{61728677be996061bb492b99abe8f35b}
+      \strng{authornamehash}{61728677be996061bb492b99abe8f35b}
+      \strng{authorfullhash}{61728677be996061bb492b99abe8f35b}
+      \strng{authorfullhashraw}{61728677be996061bb492b99abe8f35b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have measured the refractive index of InP and of liquid‐phase‐epitaxy–grown InGaAsP layers on InP in the transparent wavelength region using a Brewster‐angle method. The dependence of the refractive index on material composition and light wavelength has been investigated for near‐lattice‐matched samples and compared with theoretical models. We show that both an interband transition model and a single effective oscillator model can be used to calculate the refractive index if the parameters used in the calculations are chosen properly. We have also studied the variation with lattice mismatch by varying the growth temperature. We found that a lattice mismatch variation of 10--3 corresponds to a change in the refractive index of approximately 0.02 for λg=1.20 μm layer band gap at λ=1.30 μm wavelength. Finally, we have measured the refractive index of doped InP substrates and found refractive index reductions, due to doping, of up to 0.05.}
+      \field{day}{1}
+      \field{issn}{0021-8979}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{month}{5}
+      \field{number}{9}
+      \field{shortjournal}{J. Appl. Phys.}
+      \field{title}{Refractive Index of {{In1}}--{{xGaxAsyP1}}--y Layers and {{InP}} in the Transparent Wavelength Region}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{55}
+      \field{year}{1984}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3376\bibrangedash 3381}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1063/1.333377
+      \endverb
+      \verb{file}
+      \verb /Users/tahmidazam/Zotero/storage/52UDPUZ7/Broberg and Lindgren - 1984 - Refractive index of In1--xGaxAsyP1--y layers and InP in the transparent wavelength region.pdf;/Users/tahmidazam/Zotero/storage/9LET59Y4/1.html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.333377
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.333377
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
